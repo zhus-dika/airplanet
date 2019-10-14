@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Отзывы</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <include src = "/pages/header.html"></include>
+        <div class="page-content">
+            <div class="main-content">
+                <aside class="sidebar">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="/" class="nav__link">
+                                    <img src="" alt="" class="nav__icon">
+                                    <div class="nav__title">Главная</div>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="/pages/comments.html" class="nav__link">
+                                    <img src="" alt="" class="nav__icon">
+                                    <div class="nav__title">Отзывы</div>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="/pages/team.html" class="nav__link">
+                                    <img src="" alt="" class="nav__icon">
+                                    <div class="nav__title">Экипаж</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+                <nav class="breadcrumbs">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                            <a href="/" class="breadcrumbs__link">Главная</a>
+                            <div class="breadcrumbs__separator">/</div>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="#" class="breadcrumbs__link">Отзывы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="comments">
+                    <h1 class="comments__title">Отзывы</h1>
+                    <ul class="comments__list">
+                        <li class="comments__item">
+                            <img src="" alt="Фото пользователя" class="comments__pic">
+                            <div class="comments__desc">
+                                <div class="comments__date">12.10.2016</div>
+                                <h4 class="comments__username">Ирина Паламарчук</h4>
+                                <p class="comments__message">
+                                    Классный полет, первые полчаса трясло так, что я боялась отстегнуть ремни.
+                                    Слава Богу, ничего не случилось, но мне даже валерьянка не помогла, так
+                                    страшно было. Рекомендую эту компанию, но лучше доплатить и лететь
+                                    с комфортом.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="info">
+                <p class="info__text">
+                    Вопросы по бронированию билетов в нашей авиакомпании принимаются.
+                    Для этого можно оставить <a href="#" class="request">заявку на сайте</a>
+                    или же позвонить по номеру круглосуточной поддержки 8 (800) 00-392-10.
+                </p>
+            </div>
+            <div class="feedback">
+                <h1 class="feedback__title">Оставить отзыв</h1>
+                <form action="" class="feedback__form">
+                    Ваше имя <br><input type="text" name="name" placeholder="Динара"><br>
+                    Ссылка на профиль VK <br><input type="text" name="vk-account" placeholder="vk.com/example"><br>
+                    Текст отзыва <br>
+                    <textarea name="feedback__content" cols="30" rows="10" placeholder="Мне понравилось"></textarea><br>
+                    Отображать фото в отзыве <br>
+                    <input type="checkbox" name="answer" value="yes">Да
+                    <input type="checkbox" name="answer" value="no">Нет <br>
+                    <input type="submit" name="btn" value="Отправить">
+                </form>
+            </div>
+        </div>
+        <include src = "/pages/footer.html"></include>
+    </div>
+</body>
+
+</html>

@@ -88,10 +88,6 @@ ul li {
 .flight{
     width: 1017px;
     height: 300px;
-    background-image: url("./img/content/flight.png");
-    background-size: cover;
-    background-position: 50% 50%;
-    margin-right: 0;
 }
 .rates__item ul li {
     list-style: disc inside;
@@ -181,7 +177,6 @@ ul li {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 300;
-    padding-left: 10px;
     text-align: left;
 }
 .rates__value, .rates__dollar{

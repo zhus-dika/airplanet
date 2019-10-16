@@ -82,7 +82,7 @@ ul li {
     width: 860px;
 }
 .sidebar {
-    margin-top: 30px;
+    padding-top: 30px;
     width: 200px;
 }
 .flight{
@@ -115,7 +115,7 @@ ul li {
     text-decoration: none;
 }
 .nav ul li {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 .nav__link:hover {
     color: #221f1f;
@@ -161,6 +161,7 @@ ul li {
     width: 250px;
     display: inline-block;
     text-align: center;
+    transition: .5s;
 }
 .rates__item--active:hover {
     border:2px solid #c9d0d1;

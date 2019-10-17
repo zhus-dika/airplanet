@@ -203,6 +203,7 @@ ul li {
     font-family: Roboto;
     font-size: 49px;
     font-weight: 700;
+    margin-bottom: 73px;
 }
 
 .date {
@@ -316,7 +317,7 @@ ul li {
     font-size: 14px;
     font-weight: 300;
     width: 237px;
-    margin-left: 18px;
+    padding-left: 18px;
 }
 .loftschool {
     font-size: 14px;
@@ -331,27 +332,29 @@ ul li {
 }
 .logo__pic-footer {
     background-position: center;
-    margin: 20px 225px;
+    padding: 20px 225px;
 }
 .socials__title {
     color: white;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin: 0;
 }
 .socials__item{
     padding-left: 0;
     display: inline-block;
     margin-right: 7px;
-}
-.socials__item {
     vertical-align: top;
     border-radius: 50%;
     background: #d2def3;
     width: 20px;
     height: 20px;
+}
+.socials__item:last-child {
+    margin-right: 0px;
 }
 .vk, .facebook,.google, .twitter, .email {
     margin-top: 6px;

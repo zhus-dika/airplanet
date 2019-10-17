@@ -48,7 +48,7 @@
                     <img src="./img/content/flight.png" class="flight">
                     <div class="rates">
                         <h1>Тарифы</h1>
-                        <ul class="rates__list">
+                        <ul>
                             <li class="rates__item rates__item--active">
                                 <a href="#" class="rates__link">
                                     <img src="./img/content/rates/flower.png" alt="" class="rates__icon">
@@ -183,10 +183,10 @@
                     <div class="pagination">
                         <div class="pagination__display">Страница 1 из 7</div>
                         <div class="pagination__pager">
+                            <div class="pagination__prev">
+                                <a href="#" class="pagination__prev-nonactive"> &lt; </a>
+                            </div>
                             <ul class="pagination__list">
-                                <li class="pagination__item pagination__item--nonactive">
-                                    <a href="#" class="pagination__button-prev"> &lt; </a>
-                                </li>
                                 <li class="pagination__item  pagination__item--active">
                                     <a href="#" class="pagination__link">1</a>
                                 </li>
@@ -208,11 +208,11 @@
                                 <li class="pagination__item">
                                     <a href="#" class="pagination__link">7</a>
                                 </li>
-                                <li class="pagination__item">
-                                    <a href="#" class="pagination__button-next">&gt;</a>
-                                </li>
                             </ul>
-                        </div>
+                            <div class="pagination__next">
+                                <a href="#" class="pagination__next-active"> &gt; </a>
+                            </div>
+                        </div>    
                     </div>
                 </div>
             </div>
@@ -225,8 +225,10 @@
                             href="https://www.loftschool.com" class="loftschool">LoftSchool</a>.<br />
                         Автор работы: <strong>Жусупова Динара</strong>
                     </p>
-                </div>
-                <a href="/">
+                </div>                            <a href="#" class="pagination__next pagination__next-active"> &gt; </a>
+
+                <a href="/">                            <a href="#" class="pagination__next pagination__next-active"> &gt; </a>
+
                     <img src="./img/logo/logo.png" class="logo__pic-footer" alt="Логотип компании">
                 </a>
                 <div class="socials">
@@ -255,7 +257,8 @@
                         <li class="socials__item">
                             <a href="#" class="socials__link">
                                 <img src="./img/content/footer/mail.png" alt="" class="email">
-                            </a>
+                            </a>                        </div>    text-decoration: none;
+
                         </li>
                     </ul>
                 </div>

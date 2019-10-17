@@ -305,7 +305,6 @@ ul li {
 .footer{
     background: #4b73b5;
     margin-top: 63px;
-    margin-right: 0px;
 }
 .footer__thanks, .logo, .socials {
     display: inline-block;
@@ -352,14 +351,19 @@ ul li {
     background: #d2def3;
     width: 20px;
     height: 20px;
+    position: relative;
 }
 .socials__item:last-child {
     margin-right: 0px;
 }
-.vk, .facebook,.google, .twitter, .email {
-    margin-top: 6px;
-    margin-left: 4px;
+.vk, .facebook, .google, .twitter, .email {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+
 }
 .socials__item:hover {
+    transition: .5s;
     background: white;
 }

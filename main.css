@@ -154,6 +154,7 @@ ul li {
 }
 .rates ul {
     margin-top: 40px;
+    margin-bottom: 0;
 } 
 .rates__item {
     width: 250px;
@@ -162,6 +163,7 @@ ul li {
     border: 2px solid #ffffff;
     text-align: center;
     transition: .5s;
+    position: relative;
 }
 .rates__item--active:hover {
     border:2px solid #c9d0d1;
@@ -174,10 +176,20 @@ ul li {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.88px;
-    margin-top: 35px;
+    margin-top: 145px;
 }
 .rates__icon {
+    position: absolute;
     margin-top: 0px;
+    right: 50%;
+    transform: translate(50%,50%);
+}
+.rates__price {
+    text-align: center;
+    height: 140px;
+}
+.rates ul {
+    margin-top: 0;
 }
 ul li {
     color: inherit;
@@ -185,6 +197,7 @@ ul li {
     font-size: 18px;
     font-weight: 300;
     text-align: left;
+    margin-top: 0;
 }
 .rates__value, .rates__dollar{
     color: #212121;
@@ -194,6 +207,7 @@ ul li {
     color: #202020;
     line-height: 182.3px;
     letter-spacing: -1.07px;
+    padding-bottom: 40px;
 }
 .rates__dollar{
     font-size: 28px;

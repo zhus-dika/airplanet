@@ -109,8 +109,11 @@ ul li {
     letter-spacing: 2.4px;
     text-decoration: none;
 }
-.nav ul li {
-    padding-bottom: 30px;
+.nav__list li {
+    margin-bottom: 30px;
+}
+.nav__list li:last-child {
+    margin-bottom: 0;
 }
 .nav__link:hover {
     color: #221f1f;

@@ -185,15 +185,12 @@ ul li {
     margin-top: 32px;
 }
 .rates__link {
-    margin-top: 42px;
     border-radius: 50%;
-    margin-right: 0px;
     background: #4b73b5;
     width: 72px;
     height: 72px;
     position: relative;
-    left: 50%;
-    transform: translate(-50%,0%);
+    margin: 0 auto;
 }
 .rates__icon {
     position: absolute;
@@ -274,6 +271,7 @@ ul li {
     border-bottom: 2px solid #f5f5f5;;
 }
 .news__item:last-child {
+    margin-bottom: 0;
     border-bottom: none;
 }
 .pagination {

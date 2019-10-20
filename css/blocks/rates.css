@@ -1,0 +1,83 @@
+.rates h1  {
+    color: #221f1f;
+    font-family: Roboto;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;  
+}
+.rates__list {
+    margin-top: 40px;
+    margin-bottom: 0;
+} 
+.rates__list li {
+    list-style: disc inside;
+    margin-left: 20px;
+}
+.rates__list li:last-child {
+    margin-bottom: 0;
+}
+.rates__item {
+    padding-top: 42px;
+    width: 250px;
+    height: 455px;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    text-align: center;
+    transition: .5s;
+    position: relative;
+}
+.rates__item--active:hover {
+    border:2px solid #c9d0d1;
+    border-radius: 2%;
+}
+.rates__title {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+    margin-top: 35px;
+}
+.rates__link {
+    border-radius: 50%;
+    background: #4b73b5;
+    width: 72px;
+    height: 72px;
+    position: relative;
+    margin: 0 auto;
+}
+.rates__icon {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+}
+.rates__price {
+    text-align: center;
+    height: 140px;
+}
+.rates__list {
+    margin-top: 0;
+}
+ul li {
+    color: inherit;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 0;
+}
+.rates__value, .rates__dollar{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 400;
+    color: #202020;
+    line-height: 182.3px;
+    letter-spacing: -1.07px;
+}
+.rates__dollar{
+    font-size: 28px;
+}

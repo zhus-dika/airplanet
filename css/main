@@ -1,3 +1,15 @@
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
+@import url('./blocks/header.css');
+@import url('./blocks/sidebar.css');
+@import url('./blocks/logo.css');
+@import url('./blocks/rates.css');
+@import url('./blocks/news.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/footer.css');
+
+
+
 body{
     margin: 0px;
 }
@@ -10,7 +22,9 @@ ul li {
 }
 .header{
     background: #4b73b5;
+    height: 73px;
     margin-bottom: 42px;
+    position: relative;
 }
 .container{
     color:inherit;
@@ -20,19 +34,12 @@ ul li {
 .page-content {
     margin-bottom: 63px;
 }
-.header__container {
-    height: 73px;
-    position: relative;
-}
 .logo{
     position: absolute;
     top: 18px;
-    left: 0;
 }
 .contacts{
-    position: absolute;
-    top: 15px;
-    right: 0;
+    padding-top: 15px;
     text-align: right;
     color: #ffffff;
     font-family: Roboto;
@@ -332,12 +339,8 @@ ul li {
     border-radius: 12%;
     color:white;
 }
-.footer__container {
-    position: relative;
-    margin: 0 auto;
-    width: 1100px;
-}
 .footer{
+    position: relative;
     background: #4b73b5;
     padding-top: 15px;
     padding-left: 18px;
@@ -352,9 +355,10 @@ ul li {
     font-size: 14px;
     font-weight: 300;
     width: 237px;
+    margin-right: 60%;
 }
 .footer__thanks p{
-    margin: 0;
+    margin-left: 0;
 }
 .loftschool {
     font-size: 14px;
@@ -364,8 +368,7 @@ ul li {
     color:white;
 }
 .socials {
-    position: absolute;
-    right: 40px;
+    text-align: right;
 }
 .logo__pic-footer{
     position: absolute;

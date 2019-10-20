@@ -1,0 +1,50 @@
+.header{
+    background: #4b73b5;
+    height: 73px;
+    margin-bottom: 42px;
+    position: relative;
+}
+.contacts{
+    padding-top: 15px;
+    text-align: right;
+    color: #ffffff;
+    font-family: Roboto;
+}
+.contacts__phone{
+    color: inherit;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.contacts__hours {
+    text-decoration: underline;
+}
+.contacts__hours li {
+    color: #1c5bc3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+    margin-top: 14px;
+}
+.contacts__hours li:last-child {
+    color: #221f1f;
+    font-family: "Roboto Light";
+    font-weight: 300;
+}
+.contacts__hours:hover .contacts__hours-list {
+    display:block;
+}
+.contacts__hours-list{
+    position:absolute;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin: 35px 0px 0px 10px;
+    display: none;
+    border: black;
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+}

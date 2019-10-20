@@ -1,0 +1,70 @@
+.footer{
+    position: relative;
+    background: #4b73b5;
+    padding-top: 15px;
+    padding-left: 18px;
+}
+.footer__thanks, .logo, .socials {
+    display: inline-block;
+    vertical-align: top;
+}
+.footer__thanks {
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    width: 237px;
+    margin-right: 60%;
+}
+.footer__thanks p{
+    margin-left: 0;
+    margin-top: 0;
+}
+.loftschool {
+    font-size: 14px;
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+    text-decoration: underline;
+    color:white;
+}
+.socials {
+    text-align: right;
+}
+.logo__pic-footer{
+    position: absolute;
+    right: 50%;
+    transform: translate(50%,0%);
+}
+.socials__title {
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.socials__item{
+    padding-left: 0;
+    display: inline-block;
+    margin-right: 7px;
+    vertical-align: top;
+    border-radius: 50%;
+    background: #d2def3;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.socials__item:last-child {
+    margin-right: 0px;
+}
+.vk, .facebook, .google, .twitter, .email {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+
+}
+.socials__item:hover {
+    transition: .5s;
+    background: white;
+}

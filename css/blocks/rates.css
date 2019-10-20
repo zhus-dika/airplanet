@@ -9,7 +9,7 @@
     margin-top: 40px;
     margin-bottom: 0;
 } 
-.rates__list li {
+.rates__item li {
     list-style: disc inside;
     margin-left: 20px;
 }
@@ -19,12 +19,14 @@
 .rates__item {
     padding-top: 42px;
     width: 250px;
-    height: 455px;
     display: inline-block;
     border: 2px solid #ffffff;
     text-align: center;
     transition: .5s;
     position: relative;
+}
+.rates__item:last-child {
+    margin-right: 0;
 }
 .rates__item--active:hover {
     border:2px solid #c9d0d1;
@@ -37,7 +39,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.88px;
-    margin-top: 35px;
+    padding-top: 35px;
 }
 .rates__link {
     border-radius: 50%;
@@ -56,9 +58,6 @@
 .rates__price {
     text-align: center;
     height: 140px;
-}
-.rates__list {
-    margin-top: 0;
 }
 ul li {
     color: inherit;

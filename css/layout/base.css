@@ -29,11 +29,12 @@ ul li {
 }
 .page-content {
     margin-bottom: 63px;
+    display: flex;
 }
 .main-content {
     display: inline-block;
     vertical-align: top;
-    width: 860px;
+    width: 80%;
 }
 *{
     box-sizing: border-box;

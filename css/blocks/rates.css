@@ -6,20 +6,17 @@
     line-height: 38px;  
 }
 .rates__list {
-    margin-top: 40px;
-    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 } 
 .rates__item li {
     list-style: disc inside;
     margin-left: 20px;
 }
-.rates__list li:last-child {
-    margin-bottom: 0;
-}
 .rates__item {
     padding-top: 42px;
     width: 250px;
-    display: inline-block;
     border: 2px solid #ffffff;
     text-align: center;
     transition: .5s;
@@ -54,7 +51,7 @@
 }
 .rates__price {
     text-align: center;
-    height: 140px;
+    margin-bottom: 0;
 }
 ul li {
     color: inherit;

@@ -25,9 +25,6 @@
     transition: .5s;
     position: relative;
 }
-.rates__item:last-child {
-    margin-right: 0;
-}
 .rates__item--active:hover {
     border:2px solid #c9d0d1;
     border-radius: 2%;

@@ -35,3 +35,11 @@ ul li {
     vertical-align: top;
     width: 860px;
 }
+*{
+    box-sizing: border-box;
+}
+button {
+    background: transparent;
+    cursor: pointer;
+    border: none;
+}

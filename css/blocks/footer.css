@@ -1,10 +1,9 @@
 .footer{
-    position: relative;
     background: #4b73b5;
     padding-top: 15px;
     padding-left: 18px;
 }
-.footer__thanks, .logo, .socials {
+.footer__thanks, .logo__footer, .socials {
     display: inline-block;
     vertical-align: top;
 }
@@ -14,7 +13,6 @@
     font-size: 14px;
     font-weight: 300;
     width: 237px;
-    margin-right: 60%;
 }
 .footer__thanks p{
     margin-left: 0;
@@ -30,10 +28,9 @@
 .socials {
     text-align: right;
 }
-.logo__pic-footer{
-    position: absolute;
-    right: 50%;
-    transform: translate(50%,0%);
+.logo__footer {
+    width: 650px;
+    text-align: center;
 }
 .socials__title {
     color: white;

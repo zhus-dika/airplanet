@@ -1,15 +1,8 @@
 .sidebar {
     display: inline-block;
     vertical-align: top;
-}
-
-.sidebar {
     padding-top: 30px;
-    width: 160px;
-}
-.flight{
-    width: 900px;
-    height: 300px;
+    width: 30%;
 }
 
 .nav__link:before {

@@ -4,11 +4,16 @@
     margin-bottom: 42px;
     position: relative;
 }
+.header__container {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
 .contacts{
-    padding-top: 15px;
-    text-align: right;
     color: #ffffff;
     font-family: Roboto;
+    font-style: normal;
 }
 .contacts__phone{
     color: inherit;

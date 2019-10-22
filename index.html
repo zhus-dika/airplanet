@@ -14,18 +14,20 @@
         <div class="wrapper__content">
             <div class="header">
                 <div class="container">
-                    <a href="/" class="logo">
-                        <img src="./img/logo/logo.png" class="logo__pic" alt="Логотип компании">
-                    </a>
-                    <div class="contacts">
-                        <a href="tel:+78000039210" class="contacts__phone">8 (700) 00-392-10</a>
-                        <div class="contacts__hours">
-                            График работы
-                            <ul class="contacts__hours-list">
-                                <li> пн-вс: 09:00 - 20:00</li>
-                                <li>обед: 14:00 - 14:30</li>
-                            </ul>
-                        </div>
+                    <div class="header__container">
+                        <a href="/" class="logo">
+                            <img src="./img/logo/logo.png" class="logo__pic" alt="Логотип компании">
+                        </a>
+                        <address class="contacts">
+                            <a href="tel:+78000039210" class="contacts__phone">8 (700) 00-392-10</a>
+                            <div class="contacts__hours">
+                                График работы
+                                <ul class="contacts__hours-list">
+                                    <li> пн-вс: 09:00 - 20:00</li>
+                                    <li>обед: 14:00 - 14:30</li>
+                                </ul>
+                            </div>
+                        </address>
                     </div>
                 </div>
             </div>
@@ -46,9 +48,9 @@
                             </ul>
                         </nav>
                     </aside>
-                    <div class="main-content">
+                    <main class="main-content">
                         <img src="./img/content/flight.png" class="flight" alt="фото самолета">
-                        <div class="rates">
+                        <section class="rates">
                             <h1>Тарифы</h1>
                             <ul class="rates__list">
                                 <li class="rates__item rates__item--active">
@@ -104,9 +106,10 @@
                                     </p>
                                 </li>
                                 <li class="rates__item rates__item--active">
-                                    <div class="rates__link"> 
+                                    <div class="rates__link">
                                         <a href="#">
-                                            <img src="./img/content/rates/painter-palette.png" alt="" class="rates__icon">
+                                            <img src="./img/content/rates/painter-palette.png" alt=""
+                                                class="rates__icon">
                                         </a></div>
                                     <div class="rates__title">ЛАКШЕРИ</div>
                                     <p class="rates__item-text">
@@ -127,39 +130,47 @@
                                             <span class="rates__value">99</span>
                                         </div>
                                     </p>
-    
+
                                 </li>
                             </ul>
-                        </div>
-                        <div class="news">
-                            <h1 class="news__title">Последние новости</h1>
-                            <ul class="news__list">
-                                <li class="news__item">
-                                    <img src="./img/content/news/plane.png" class="news__item-pic"
-                                        alt="Рисунок для новости">
-                                    <div class="news__content">
+                        </section>
+                        <section class="section">
+                            <h1 class="section__title">Последние новости</h1>
+                            <ul class="section__list">
+                                <li class="section__item">
+                                    <div class="section__item-photo">
+                                        <div class="section__photo">
+                                            <img src="./img/content/news/plane.png" class="section__item-pic"
+                                                alt="Рисунок для новости">
+                                        </div>
+                                    </div>
+                                    <div class="section__content">
                                         <div class="date">12.10.2016</div>
-                                        <h1 class="news__item-title">Ночные перелеты дешевле!</h1>
-                                        <div class="news__text">
-                                            <p class="news__text-content">
+                                        <h4 class="section__item-title">Ночные перелеты дешевле!</h4>
+                                        <div class="section__text">
+                                            <p class="section__text-content">
                                                 Летящий в небе самолет зрелище загадочное и романтичсекое.
                                                 Крылатая машина величественно плывет, мерцая разноцветными огнями, и
                                                 почему-то
-                                                кажется, что она наполнена удивительными людьми, спешащими далеко - далеко
-                                                по
-                                                очень важным делам.
+                                                кажется, что она наполнена удивительными людьми, спешащими далеко -
+                                                далеко
+                                                по очень важным делам.
                                             </p>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="news__item">
-                                    <img src="./img/content/news/mountains.png" class="news__item-pic"
-                                        alt="Рисунок для новости">
-                                    <div class="news__content">
+                                <li class="section__item">
+                                    <div class="section__item-photo">
+                                        <div class="section__photo">
+                                            <img src="./img/content/news/mountains.png" class="section__item-pic"
+                                                alt="Рисунок для новости">
+                                        </div>
+                                    </div>
+                                    <div class="section__content">
                                         <div class="date">01.02.2016</div>
-                                        <h1 class="news__item-title">Путешествие в Грузию стало доступнее</h1>
-                                        <div class="news__text">
-                                            <p class="news__text-content">
+                                        <h4 class="section__item-title">Путешествие в Грузию стало доступнее</h4>
+                                        <div class="section__text">
+                                            <p class="section__text-content">
                                                 Экскурсии по Грузии в 2017 году от русских гидов, самые интересные
                                                 маршруты в Грузии от профессиональных гидов. Обзорные, пешеходные,
                                                 автомобильныеб
@@ -170,13 +181,18 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="news__item">
-                                    <img src="./img/content/news/boy.png" class="news__item-pic" alt="Рисунок для новости">
-                                    <div class="news__content">
+                                <li class="section__item">
+                                    <div class="section__item-photo">
+                                        <div class="section__photo">
+                                            <img src="./img/content/news/boy.png" class="section__item-pic"
+                                                alt="Рисунок для новости">
+                                        </div>
+                                    </div>
+                                    <div class="section__content">
                                         <div class="date">22.12.2015</div>
-                                        <h1 class="news__item-title">Детские билеты доступны для бизнес-класса</h1>
-                                        <div class="news__text">
-                                            <p class="news__text-content">
+                                        <h4 class="section__item-title">Детские билеты доступны для бизнес-класса</h4>
+                                        <div class="section__text">
+                                            <p class="section__text-content">
                                                 Путешествие на самолете с детьми - небольшое испытание для родителей. Но
                                                 это не экстремальное приключение, а обычный цивилизованный подход.
                                                 Тем более, различные авиакомпании стараются помочь скидками на детские
@@ -186,7 +202,7 @@
                                     </div>
                                 </li>
                             </ul>
-                        </div>
+                        </section>
                         <div class="pagination">
                             <div class="pagination__display">Страница 1 из 7</div>
                             <div class="pagination__pager">
@@ -219,55 +235,57 @@
                                 <div class="pagination__next">
                                     <a href="#" class="pagination__next-active"> &gt; </a>
                                 </div>
-                            </div>    
+                            </div>
                         </div>
-                    </div>
+                    </main>
                 </div>
             </div>
         </div>
         <div class="footer">
             <div class="container">
-                <div class="footer__thanks">
-                    <p>
-                        Сделано с любовью и старанием на курсе «‎HTML+CSS» в <a target="_blank"
-                            href="https://www.loftschool.com" class="loftschool">LoftSchool</a>.<br />
-                        Автор работы: <strong>Жусупова Динара</strong>
-                    </p>
-                </div>                          
-                <div class="logo__footer">
-                    <a href="/">                            
-                        <img src="./img/logo/logo.png" class="logo__footer-pic" alt="Логотип компании">
-                    </a>
-                </div>
-                <div class="socials">
-                    <h5 class="socials__title">Наши социальные сети</h5>
-                    <ul class="socials__list">
-                        <li class="socials__item">
-                            <a href="#" class="socials__link">
-                                <img src="./img/content/footer/vk.png" alt="" class="vk">
-                            </a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="#" class="socials__link">
-                                <img src="./img/content/footer/fb.png" alt="" class="facebook">
-                            </a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="#" class="socials__link">
-                                <img src="./img/content/footer/google.png" alt="" class="google">
-                            </a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="#" class="socials__link">
-                                <img src="./img/content/footer/twitter.png" alt="" class="twitter">
-                            </a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="#" class="socials__link">
-                                <img src="./img/content/footer/mail.png" alt="" class="email">
-                            </a>                        
-                        </li>
-                    </ul>
+                <div class="container footer__container">
+                    <div class="footer__thanks">
+                        <p>
+                            Сделано с любовью и старанием на курсе «‎HTML+CSS» в <a target="_blank"
+                                href="https://www.loftschool.com" class="loftschool">LoftSchool</a>.<br />
+                            Автор работы: <strong>Жусупова Динара</strong>
+                        </p>
+                    </div>
+                    <div class="logo__footer">
+                        <a href="/">
+                            <img src="./img/logo/logo.png" class="logo__footer-pic" alt="Логотип компании">
+                        </a>
+                    </div>
+                    <div class="socials">
+                        <h5 class="socials__title">Наши социальные сети</h5>
+                        <ul class="socials__list">
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/content/footer/vk.png" alt="" class="vk">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/content/footer/fb.png" alt="" class="facebook">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/content/footer/google.png" alt="" class="google">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/content/footer/twitter.png" alt="" class="twitter">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/content/footer/mail.png" alt="" class="email">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,85 +1,157 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Экипаж</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name=viewport content="width=1100">
+        <title>Экипаж</title>
+        <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
     <div class="wrapper">
-        <include src = "/pages/header.html"></include>
-        <div class="page-content">
-            <div class="main-content">
-                <aside class="sidebar">
-                    <nav class="nav">
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a href="/" class="nav__link">
-                                    <img src="" alt="" class="nav__icon">
-                                    <div class="nav__title">Главная</div>
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="/pages/comments.html" class="nav__link">
-                                    <img src="" alt="" class="nav__icon">
-                                    <div class="nav__title">Отзывы</div>
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="/pages/team.html" class="nav__link">
-                                    <img src="" alt="" class="nav__icon">
-                                    <div class="nav__title">Экипаж</div>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </aside>
-                <nav class="breadcrumbs">
-                    <ul class="breadcrumbs__list">
-                        <li class="breadcrumbs__item">
-                            <a href="/" class="breadcrumbs__link">Главная</a>
-                            <div class="breadcrumbs__separator">/</div>
-                        </li>
-                        <li class="breadcrumbs__item">
-                            <a href="#" class="breadcrumbs__link">Экипаж</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="members">
-                    <h1 class="members__title">Экипаж</h1>
-                    <ul class="members__list">
-                        <li class="members__item">
-                            <div class="member__fname">Алексей</div>
-                            <img src="" alt="Фото члена экипажа" class="member__avatar">
-                            <div class="member__name">Белов Алексей Вадимович</div>
-                            <div class="member__status">Главный пилот</div>
-                            <p class="member__desc">
-                                Высокий профессионализм, честь и отвага - все это характерситикиглавного пилота Белова
-                                А.В. На его счету более 700 полетов. Награжден
-                                за мужество и отвагу указом президента.
-                            </p>
-                        </li>
-                    </ul>
+        <div class="wrapper__content">
+            <div class="header">
+                <div class="container">
+                    <div class="header__container">
+                        <a href="/" class="logo">
+                            <img src="./img/logo/logo.png" class="logo__pic" alt="Логотип компании">
+                        </a>
+                        <address class="contacts">
+                            <a href="tel:+78000039210" class="contacts__phone">8 (700) 00-392-10</a>
+                            <div class="contacts__hours">
+                                График работы
+                                <ul class="contacts__hours-list">
+                                    <li> пн-вс: 09:00 - 20:00</li>
+                                    <li>обед: 14:00 - 14:30</li>
+                                </ul>
+                            </div>
+                        </address>
+                    </div>
                 </div>
-                <div class="partners">
-                    <h1 class="partners__title">Партнеры</h1>
-                    <ul class="partners__list">
-                        <li class="partners__item">
-                            <img src="" class="partners__item-logo" alt="Логотип партнера">
-                        </li>
-                        <li class="partners__item">
-                            <img src="" class="partners__item-logo" alt="Логотип партнера">
-                        </li>
-                        <li class="partners__item">
-                            <img src="" class="partners__item-logo" alt="Логотип партнера">
-                        </li>
-                    </ul>
+            </div>
+            <div class="container">
+                <div class="page-content">
+                    <div class="main-content">
+                        <aside class="sidebar">
+                            <nav class="nav">
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a href="/" class="nav__link">
+                                            <img src="" alt="" class="nav__icon">
+                                            <div class="nav__title">Главная</div>
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="/pages/comments.html" class="nav__link">
+                                            <img src="" alt="" class="nav__icon">
+                                            <div class="nav__title">Отзывы</div>
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="/pages/team.html" class="nav__link">
+                                            <img src="" alt="" class="nav__icon">
+                                            <div class="nav__title">Экипаж</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </aside>
+                        <nav class="breadcrumbs">
+                            <ul class="breadcrumbs__list">
+                                <li class="breadcrumbs__item">
+                                    <a href="/" class="breadcrumbs__link">Главная</a>
+                                    <div class="breadcrumbs__separator">/</div>
+                                </li>
+                                <li class="breadcrumbs__item">
+                                    <a href="#" class="breadcrumbs__link">Экипаж</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="members">
+                            <h1 class="members__title">Экипаж</h1>
+                            <ul class="members__list">
+                                <li class="members__item">
+                                    <div class="member__fname">Алексей</div>
+                                    <img src="" alt="Фото члена экипажа" class="member__avatar">
+                                    <div class="member__name">Белов Алексей Вадимович</div>
+                                    <div class="member__status">Главный пилот</div>
+                                    <p class="member__desc">
+                                        Высокий профессионализм, честь и отвага - все это характерситикиглавного пилота
+                                        Белова
+                                        А.В. На его счету более 700 полетов. Награжден
+                                        за мужество и отвагу указом президента.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="partners">
+                            <h1 class="partners__title">Партнеры</h1>
+                            <ul class="partners__list">
+                                <li class="partners__item">
+                                    <img src="" class="partners__item-logo" alt="Логотип партнера">
+                                </li>
+                                <li class="partners__item">
+                                    <img src="" class="partners__item-logo" alt="Логотип партнера">
+                                </li>
+                                <li class="partners__item">
+                                    <img src="" class="partners__item-logo" alt="Логотип партнера">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container">
+                    <div class="container footer__container">
+                        <div class="footer__thanks">
+                            <p>
+                                Сделано с любовью и старанием на курсе «‎HTML+CSS» в <a target="_blank"
+                                    href="https://www.loftschool.com" class="loftschool">LoftSchool</a>.<br />
+                                Автор работы: <strong>Жусупова Динара</strong>
+                            </p>
+                        </div>
+                        <div class="logo__footer">
+                            <a href="/">
+                                <img src="./img/logo/logo.png" class="logo__footer-pic" alt="Логотип компании">
+                            </a>
+                        </div>
+                        <div class="socials">
+                            <h5 class="socials__title">Наши социальные сети</h5>
+                            <ul class="socials__list">
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/content/footer/vk.png" alt="" class="vk">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/content/footer/fb.png" alt="" class="facebook">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/content/footer/google.png" alt="" class="google">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/content/footer/twitter.png" alt="" class="twitter">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/content/footer/mail.png" alt="" class="email">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <include src = "/pages/footer.html"></include>
     </div>
 </body>
 

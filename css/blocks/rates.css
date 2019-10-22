@@ -4,6 +4,7 @@
     font-size: 49px;
     font-weight: 700;
     line-height: 38px;  
+    margin: 20px 0;
 }
 .rates__list {
     display: flex;

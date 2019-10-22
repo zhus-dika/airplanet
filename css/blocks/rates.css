@@ -23,6 +23,13 @@
     transition: .5s;
     position: relative;
 }
+.rates__item-text {
+    color:  #212121;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
 .rates__item--active:hover {
     border:2px solid #c9d0d1;
     border-radius: 2%;

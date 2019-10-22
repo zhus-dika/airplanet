@@ -1,0 +1,48 @@
+.members {
+  margin-bottom: 30px;
+}
+.members__title {
+  color: #221f1f;
+  font-family: Roboto;
+  font-size: 49px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.members__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+.avatar {
+  text-align: center;
+}
+  .members__item {
+    /* width: calc(100% / 3 - 20px); */
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 2%;
+    width: 33%;
+  }
+  .member__name {
+    text-align: center;
+    font-family: "Roboto - Bold";
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .member__status {
+    text-align: center;
+    color: #4b73b5;
+    font-size: 14px;
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+  }
+  .member__about {
+    text-align: center;
+    line-height: 21px;
+    font-size: 14px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+  }

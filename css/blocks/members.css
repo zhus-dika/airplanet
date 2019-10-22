@@ -17,6 +17,7 @@
 
 .avatar {
   text-align: center;
+  padding-bottom: 10px;
 }
   .members__item {
     /* width: calc(100% / 3 - 20px); */

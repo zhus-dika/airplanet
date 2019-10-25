@@ -4,6 +4,7 @@
     font-size: 49px;
     font-weight: 700;
     line-height: 38px;  
+    margin: 20px 0;
 }
 .rates__list {
     display: flex;
@@ -15,12 +16,18 @@
     margin-left: 20px;
 }
 .rates__item {
-    padding-top: 42px;
     width: 250px;
     border: 2px solid #ffffff;
     text-align: center;
     transition: .5s;
     position: relative;
+}
+.rates__item-text {
+    color:  #212121;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
 }
 .rates__item--active:hover {
     border:2px solid #c9d0d1;
@@ -33,7 +40,6 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.88px;
-    padding-top: 35px;
 }
 .rates__link {
     border-radius: 50%;
@@ -41,7 +47,7 @@
     width: 72px;
     height: 72px;
     position: relative;
-    margin: 0 auto;
+    margin: 35px auto;
 }
 .rates__icon {
     position: absolute;

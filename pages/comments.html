@@ -39,10 +39,10 @@
                                 <a href="/" class="nav__link  nav__link--icon--main">Главная</a>
                             </li>
                             <li class="nav__item nav__item--active">
-                                <a href="/pages/comments.html" class="nav__link nav__link--icon--feed">Отзывы</a>
+                                <a href="./comments.html" class="nav__link nav__link--icon--feed">Отзывы</a>
                             </li>
                             <li class="nav__item">
-                                <a href="/pages/team.html" class="nav__link nav__link--icon--team">Экипаж</a>
+                                <a href="./team.html" class="nav__link nav__link--icon--team">Экипаж</a>
                             </li>
                         </ul>
                     </nav>
@@ -53,8 +53,8 @@
                             <li class="breadcrumbs__item">
                                 <a href="/" class="breadcrumbs__link">Главная</a>
                             </li>
-                            <li class="breadcrumbs__item .breadcrumbs__item--active">
-                                <a href="#" class=".breadcrumbs__link">Отзывы</a>
+                            <li class="breadcrumbs__item breadcrumbs__item--active">
+                                <a href="#" class="breadcrumbs__link">Отзывы</a>
                             </li>
                         </ul>
                     </nav>
@@ -93,7 +93,9 @@
                                     <h4 class="section__item-title"> Александр Бельков</h4>
                                     <div class="section__text">
                                         <p class="section__text-content">
-                                            Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2 раза, а еду – 1 раз. Единственное, что не понравилось, как то мало места для ног, но с этим у меня часто проблема, рост 2,1м.
+                                            Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2
+                                            раза, а еду – 1 раз. Единственное, что не понравилось, как то мало места для
+                                            ног, но с этим у меня часто проблема, рост 2,1м.
                                         </p>
                                     </div>
                                 </div>
@@ -109,8 +111,11 @@
                                     <div class="date">22.12.2015</div>
                                     <h4 class="section__item-title">Игорь Николаенко</h4>
                                     <div class="section__text">
-                                        <p class="section__text-content">   
-                                            Кормили супер вообще! Сказали, что это из-за того, что полет менее 2,5 часов. Но прибавьте к этому время регистрации в аэропорту. Летел с женой и мы очень проголодались. Просто имейте это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.
+                                        <p class="section__text-content">
+                                            Кормили супер вообще! Сказали, что это из-за того, что полет менее 2,5
+                                            часов. Но прибавьте к этому время регистрации в аэропорту. Летел с женой и
+                                            мы очень проголодались. Просто имейте это ввиду, берите с собой хотя бы
+                                            бутерброды, чипсы какие-то или печенье.
                                         </p>
                                     </div>
                                 </div>
@@ -127,7 +132,9 @@
                                     <h4 class="section__item-title"> Анастасия Порядная </h4>
                                     <div class="section__text">
                                         <p class="section__text-content">
-                                            За такую цену просто все отлично! Кто недоволен, платите в 2 раза больше за аналогичные рейсы. Мне понравилось, что на борту было чисто, я аллергик и всегда чутко реагирую на пыль. Спасибо за полет! Рекомендую!
+                                            За такую цену просто все отлично! Кто недоволен, платите в 2 раза больше за
+                                            аналогичные рейсы. Мне понравилось, что на борту было чисто, я аллергик и
+                                            всегда чутко реагирую на пыль. Спасибо за полет! Рекомендую!
                                         </p>
                                     </div>
                                 </div>
@@ -168,30 +175,58 @@
                             </div>
                         </div>
                     </div>
-                    <div class="info">
-                        <p class="info__text">
-                            Вопросы по бронированию билетов в нашей авиакомпании принимаются.
-                            Для этого можно оставить <a href="#" class="request">заявку на сайте</a>
-                            или же позвонить по номеру круглосуточной поддержки 8 (800) 00-392-10.
-                        </p>
-                    </div>
-                    <div class="feedback">
-                        <h1 class="feedback__title">Оставить отзыв</h1>
-                        <form action="" class="feedback__form">
-                            Ваше имя <br><input type="text" name="name" placeholder="Динара"><br>
-                            Ссылка на профиль VK <br><input type="text" name="vk-account"
-                                placeholder="vk.com/example"><br>
-                            Текст отзыва <br>
-                            <textarea name="feedback__content" cols="30" rows="10"
-                                placeholder="Мне понравилось"></textarea><br>
-                            Отображать фото в отзыве <br>
-                            <input type="checkbox" name="answer" value="yes">Да
-                            <input type="checkbox" name="answer" value="no">Нет <br>
-                            <input type="submit" name="btn" value="Отправить">
-                        </form>
                 </main>
             </div>
         </div>
+        <div class="info">
+            <p class="info__text">
+                Вопросы по бронированию билетов в нашей авиакомпании принимаются.
+                Для этого можно оставить <a href="#" class="request">заявку на сайте</a>
+                или же позвонить по номеру круглосуточной поддержки <span class="contacts__phone"><a href="tel:+78000039210" class="contacts__phone">8 (700) 00-392-10</a></span>.
+            </p>
+        </div>
+        <section class="form-section">
+            <div class="form">
+                <h1 class="form__title">Оставить отзыв</h1>
+                <form action="" class="form__elem">
+                    <div class="form__row">
+                        <label class="form__block">
+                            <div class="form__block-title">Ваше имя </div>
+                            <input class="form__input" type="text" name="name" placeholder="Динара">
+                        </label>
+                        <label class="form__block">
+                            <div class="form__block-title">Ссылка на профиль VK </div>
+                            <input class="form__input" type="text" name="vk-account" placeholder="vk.com/example">
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <label class="form__block">
+                            <div class="form__block-title">Текст отзыва </div>
+                            <textarea name="form__input form__input--textarea" placeholder="Мне понравилось">
+                                    </textarea>
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__question">
+                            <div class="form__question-title">Отображать фото в отзыве?</div>
+                            <div class="form__question-options">
+                                <label class="option">
+                                    <input type="radio" class="option__radio" name="" value="yes">
+                                    <div class="option__title">Да</div>
+                                </label>
+                                <label class="option">
+                                    <input type="radio" class="option__radio" name="" value="no">
+                                    <div class="option__title">Нет</div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form__button">
+                            <input type="submit" value="Отправить">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
         <div class="footer">
             <div class="container">
                 <div class="container footer__container">

@@ -3,6 +3,7 @@
     font-family: Roboto;
     font-size: 49px;
     font-weight: 700;
+    margin: 20px 0;
 }
 
 .date {
@@ -49,6 +50,7 @@
 .section__item:last-child {
     margin-bottom: 0;
     border-bottom: none;
+    padding-bottom: 0;
 }
 .section__content {
     margin-bottom: 40px;

@@ -4,6 +4,14 @@ html,body {
 body{
     margin: 0px;
 }
+h1,h2,h3,h4,h5 {
+    margin: 0;
+    font-weight: normal;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -20,6 +28,7 @@ ul li {
 }
 .wrapper__content {
     flex: 1;
+    margin-bottom: 63px;
 }
 
 .container{
@@ -28,13 +37,12 @@ ul li {
     width: 1063px;
 }
 .page-content {
-    margin-bottom: 63px;
     display: flex;
 }
 .main-content {
     display: inline-block;
     vertical-align: top;
-    width: 80%;
+    width: 85%;
 }
 *{
     box-sizing: border-box;

@@ -1,0 +1,27 @@
+.info{
+    background: #4bb56b;
+    background-image: url(../../img/content/comments/add_layer.png);
+    padding: 3% 30%;
+    margin: 30px 0;
+}
+p{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+}
+.request {
+    color: #ffffff;
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.contacts {
+    color: #ffffff;
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}

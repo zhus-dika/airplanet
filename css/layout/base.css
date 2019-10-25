@@ -28,6 +28,7 @@ ul li {
 }
 .wrapper__content {
     flex: 1;
+    margin-bottom: 63px;
 }
 
 .container{
@@ -36,7 +37,6 @@ ul li {
     width: 1063px;
 }
 .page-content {
-    margin-bottom: 63px;
     display: flex;
 }
 .main-content {

@@ -16,7 +16,6 @@
     margin-left: 20px;
 }
 .rates__item {
-    padding-top: 42px;
     width: 250px;
     border: 2px solid #ffffff;
     text-align: center;
@@ -41,7 +40,6 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.88px;
-    padding-top: 35px;
 }
 .rates__link {
     border-radius: 50%;
@@ -49,7 +47,7 @@
     width: 72px;
     height: 72px;
     position: relative;
-    margin: 0 auto;
+    margin: 35px auto;
 }
 .rates__icon {
     position: absolute;

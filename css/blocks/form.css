@@ -83,9 +83,8 @@
   .form__row:last-child {
     justify-content: space-between;
   }
-  .form__button input{
-    min-width: 154px;
-    min-height: 45px;
+  .form__button{
+    padding: 2% 5%;
     background-color: #4b73b5;
     color: #ffffff;
     font-family: Roboto;

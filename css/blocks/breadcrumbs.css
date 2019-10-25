@@ -1,0 +1,28 @@
+.breadcrumbs ul {
+  display: flex;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.breadcrumbs__item a{
+  color: #1c5bc3;
+  font-family: "Roboto - Light Italic";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.breadcrumbs__item--active:after {
+  display: none;
+}
+
+.breadcrumbs__item--active a{
+    color: #221f1f;
+    font-family: "Roboto - Light Italic";
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}

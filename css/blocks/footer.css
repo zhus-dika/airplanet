@@ -1,0 +1,66 @@
+.footer{
+    background: #4b73b5;
+    padding-top: 15px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__thanks {
+    width: 30%;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.loftschool {
+    font-size: 14px;
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+    text-decoration: underline;
+    color:white;
+}
+.logo__footer {
+    text-align: center;
+    width: 40%;
+}
+.socials__list {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.socials__title {
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.socials__item{
+    margin-right: 6px;
+    border-radius: 50%;
+    background: #d2def3;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.socials__item:last-child {
+    margin-right: 0px;
+}
+.vk, .facebook, .google, .twitter, .email {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+
+}
+.socials__item:hover {
+    transition: .5s;
+    background: white;
+}

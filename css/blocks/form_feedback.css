@@ -1,12 +1,13 @@
 .form-section {
     padding: 0 10%;
+    margin-bottom: 30px;
   }
   
   .form {
     background: #f5f5f5;
     color: #221f1f;
-    padding: 45px 10%;
-    margin: 0 20% 30px;
+    padding: 10%;
+    margin: 0 20%;
   }
   .form__elem {
       margin-bottom: 0;

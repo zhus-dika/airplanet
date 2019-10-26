@@ -5,7 +5,9 @@
     font-weight: 700;
     margin: 20px 0;
 }
-
+.section {
+    margin-bottom: 25px;
+}
 .date {
     color: #656464;
     font-family: "Roboto Light";
@@ -51,7 +53,4 @@
     margin-bottom: 0;
     border-bottom: none;
     padding-bottom: 0;
-}
-.section__content {
-    margin-bottom: 40px;
 }

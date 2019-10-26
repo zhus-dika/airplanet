@@ -15,9 +15,6 @@
 .pagination__prev {
     margin-right: 20px;
 }
-.pagination__item:last-child {
-    margin-right: 0;
-}
 .pagination__link{
     text-decoration: none;
     color: #221f1f;
@@ -39,15 +36,12 @@
     font-size: 14px;
     font-weight: 700;
 }
-.pagination__prev .pagination__prev-nonactive{
+.pagination__prev .pagination__prev--nonactive{
     text-decoration: none;
     opacity: 0.3;
     font-size: 18px;
 }
-.pagination__next {
-    margin-left: 18px;
-}
-.pagination__next .pagination__next-active{
+.pagination__next .pagination__next--active{
     text-decoration: none;
     font-size: 18px;
 }

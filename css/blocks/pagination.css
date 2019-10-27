@@ -9,6 +9,10 @@
     display: inline-block;
     margin-right: 18px;
 }
+.pagination__link:hover {
+    transition: .5s;
+    color: #1c5bc3;
+}
 .pagination__list,.pagination__prev,.pagination__next {
     display: inline-block;
 }

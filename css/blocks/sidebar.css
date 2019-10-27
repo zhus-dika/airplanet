@@ -6,14 +6,17 @@
 }
 
 .nav__link:before {
-    content: "";
+    content: " ";
     display: inline-block;
     vertical-align: middle;
-    margin-right: 30px;
-    width: 22px;
+    margin-right: 25%;
     height: 22px;
+    width: 22px;
 }
 .nav__link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     color: #4b73b5;
     font-family: Roboto;
     font-size: 12px;
@@ -35,29 +38,38 @@
     color: #221f1f;
 }
 .nav__link--icon--main:before {
-        background-image: url(../../img/content/sidebar/main.png);
+    background: url(../../img/content/sidebar/main.png);
+    background-size: 100% 100%;
 }
 .nav__link--icon--feed:before {
-        background-image: url(../../img/content/sidebar/feed.png);
+    background: url(../../img/content/sidebar/feed.png);
+    background-size: 100% 100%;
 }
 .nav__link--icon--team:before {
-        background-image: url(../../img/content/sidebar/team.png);
+    background: url(../../img/content/sidebar/team.png);
+    background-size: 100% 100%;
 }
 .nav__link--icon--main:hover:before {
-        background-image: url(../../img/content/sidebar/main-active.png);
+    background: url(../../img/content/sidebar/main-active.png);
+    background-size: 100% 100%;
 }
 .nav__link--icon--feed:hover:before {
-        background-image: url(../../img/content/sidebar/feed-active.png);
+    background: url(../../img/content/sidebar/feed-active.png);
+    background-size: 100% 100%;
 }
 .nav__link--icon--team:hover:before {
-        background-image: url(../../img/content/sidebar/team-active.png);
+    background: url(../../img/content/sidebar/team-active.png);
+    background-size: 100% 100%;
 }
 .nav__item--active .nav__link--icon--main:before {
-    background-image: url(../../img/content/sidebar/main-active.png);
+    background: url(../../img/content/sidebar/main-active.png);
+    background-size: 100% 100%;
 }
 .nav__item--active .nav__link--icon--feed:before {
-    background-image: url(../../img/content/sidebar/feed-active.png);
+    background: url(../../img/content/sidebar/feed-active.png);
+    background-size: 100% 100%;
 }
 .nav__item--active .nav__link--icon--team:before {
-    background-image: url(../../img/content/sidebar/team-active.png);
+    background: url(../../img/content/sidebar/team-active.png);
+    background-size: 100% 100%;
 }

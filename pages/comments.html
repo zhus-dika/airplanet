@@ -11,7 +11,7 @@
 
 <body>
     <div class="wrapper">
-        <header>
+        <header class="header">
             <div class="container">
                 <div class="header__container">
                     <a href="../index.html" class="logo">
@@ -169,60 +169,62 @@
                             </div>
                         </div>
                     </div>
+                    <div class="info">
+                        <p class="info__text">
+                            Вопросы по бронированию билетов в нашей авиакомпании принимаются.
+                            Для этого можно оставить <a href="#" class="request">заявку на сайте</a>
+                            или же позвонить по номеру круглосуточной поддержки <span class="contacts__phone"><a
+                                    href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a></span>.
+                        </p>
+                    </div>
+                    <div class="form-section">
+                        <div class="form">
+                            <h1 class="form__title">Оставить отзыв</h1>
+                            <form method="GET" action="" class="form__elem">
+                                <div class="form__row">
+                                    <label class="form__block">
+                                        <div class="form__block-title">Ваше имя </div>
+                                        <input class="form__input" type="text" name="name" placeholder="Динара">
+                                    </label>
+                                    <label class="form__block">
+                                        <div class="form__block-title">Ссылка на профиль VK </div>
+                                        <input class="form__input" type="text" name="vk-account"
+                                            placeholder="vk.com/example">
+                                    </label>
+                                </div>
+                                <div class="form__row">
+                                    <label class="form__block">
+                                        <div class="form__block-title">Текст отзыва </div>
+                                        <textarea name="form__input form__input--textarea"
+                                            placeholder="Мне понравилось">
+                                                </textarea>
+                                    </label>
+                                </div>
+                                <div class="form__row">
+                                    <div class="form__question">
+                                        <div class="form__question-title">Отображать фото в отзыве?</div>
+                                        <div class="form__question-options">
+                                            <label class="option">
+                                                <input type="radio" class="option__radio" name="" value="yes">
+                                                <div class="option__title">Да</div>
+                                            </label>
+                                            <label class="option">
+                                                <input type="radio" class="option__radio" name="" value="no">
+                                                <div class="option__title">Нет</div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button class="form__button">
+                                        <div class="form__button-text">Отправить</div>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </main>
             </div>
         </div>
-        <main class="info">
-            <p class="info__text">
-                Вопросы по бронированию билетов в нашей авиакомпании принимаются.
-                Для этого можно оставить <a href="#" class="request">заявку на сайте</a>
-                или же позвонить по номеру круглосуточной поддержки <span class="contacts__phone"><a
-                        href="tel:+78000039210" class="contacts__phone">8 (700) 00-392-10</a></span>.
-            </p>
-        </main>
-        <main class="form-section">
-            <div class="form">
-                <h1 class="form__title">Оставить отзыв</h1>
-                <form method="" action="" class="form__elem">
-                    <div class="form__row">
-                        <label class="form__block">
-                            <div class="form__block-title">Ваше имя </div>
-                            <input class="form__input" type="text" name="name" placeholder="Динара">
-                        </label>
-                        <label class="form__block">
-                            <div class="form__block-title">Ссылка на профиль VK </div>
-                            <input class="form__input" type="text" name="vk-account" placeholder="vk.com/example">
-                        </label>
-                    </div>
-                    <div class="form__row">
-                        <label class="form__block">
-                            <div class="form__block-title">Текст отзыва </div>
-                            <textarea name="form__input form__input--textarea" placeholder="Мне понравилось">
-                                    </textarea>
-                        </label>
-                    </div>
-                    <div class="form__row">
-                        <div class="form__question">
-                            <div class="form__question-title">Отображать фото в отзыве?</div>
-                            <div class="form__question-options">
-                                <label class="option">
-                                    <input type="radio" class="option__radio" name="" value="yes">
-                                    <div class="option__title">Да</div>
-                                </label>
-                                <label class="option">
-                                    <input type="radio" class="option__radio" name="" value="no">
-                                    <div class="option__title">Нет</div>
-                                </label>
-                            </div>
-                        </div>
-                        <button class="form__button">
-                            <div class="form__button-text">Отправить</div>
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </main>
-        <footer>
+        <footer class="footer">
             <div class="container">
                 <div class="container footer__container">
                     <div class="footer__thanks">

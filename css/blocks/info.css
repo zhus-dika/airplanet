@@ -1,10 +1,13 @@
 .info{
     background: #4bb56b;
     background-image: url(../../img/content/comments/add_layer.png);
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 40%);
     padding: 3% 30%;
     margin-bottom: 30px;
 }
-p{
+.info__text {
     color: #ffffff;
     font-family: Roboto;
     font-size: 18px;
@@ -12,6 +15,7 @@ p{
     line-height: 30px;
     font-family: "Roboto Light";
     font-weight: 300;
+    padding: 0 12%;
 }
 .request {
     color: #ffffff;

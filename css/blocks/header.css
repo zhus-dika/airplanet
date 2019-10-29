@@ -37,7 +37,7 @@
     font-family: "Roboto Light";
     font-weight: 300;
 }
-.contacts__hours:hover .contacts__hours-list {
+.contacts__hours:hover .contacts__hours-list, .contacts__hours:hover .triangle {
     display:block;
 }
 .contacts__hours-list{
@@ -65,7 +65,4 @@
     border-radius: 3px;
     transform: rotate(45deg);
     display: none;
-}
-.contacts__hours:hover .triangle {
-    display:block;
 }

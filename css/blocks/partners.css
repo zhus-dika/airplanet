@@ -10,9 +10,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    width: 850px;
-    height: 300px;
-    padding-left: 60px;
+    padding-bottom: 10%;;
   }
   .partners__item{
       width: 20%;
@@ -23,57 +21,14 @@
   .partners__item:nth-child(3n) {
       margin-right: 0;
   }
-  .partners__item-bmp {
-    background: url(../../img/content/team/partners/BMP-nonactive.png) no-repeat;
-    background-size: contain;
+  .partners__item:nth-child(n+4) {
+    margin-bottom: 0;
   }
-  .partners__item-tetra {
-    background: url(../../img/content/team/partners/tetra-nonactive.png) no-repeat;
-    background-size: contain;
+  .partners__item {
+    text-align: center;
+    filter: grayscale(100%);
   }
-  .partners__item-sib_avia {
-    background: url(../../img/content/team/partners/sib_avia-nonactive.png) no-repeat;
-    background-size: contain;
-}
-  .partners__item-one-air {
-    background: url(../../img/content/team/partners/one-air-nonactive.png) no-repeat;
-    background-size: contain;
-  }
-  .partners__item-bing-air {
-    background: url(../../img/content/team/partners/bing-air-nonactive.png) no-repeat;
-    background-size: contain;
-  }
-  .partners__item-ural {
-    background: url(../../img/content/team/partners/ural-nonactive.png) no-repeat;
-    background-size: contain;
-  }
-  .partners__item-bmp:hover {
-    background: url(../../img/content/team/partners/BMP.png) no-repeat;
-    background-size: contain;
-    transition: .5s;
-  }
-  .partners__item-tetra:hover  {
-    background: url(../../img/content/team/partners/tetra.png) no-repeat;
-    background-size: contain;
-    transition: .5s;
-  }
-  .partners__item-sib_avia:hover  {
-    background: url(../../img/content/team/partners/sib_avia.png) no-repeat;
-    background-size: contain;
-    transition: .5s;
-  }
-  .partners__item-one-air:hover  {
-    background: url(../../img/content/team/partners/one-air.png) no-repeat;
-    background-size: contain;
-    transition: .5s;
-  }
-  .partners__item-bing-air:hover  {
-    background: url(../../img/content/team/partners/bing-air.png) no-repeat;
-    background-size: contain;
-    transition: .5s;
-  }
-  .partners__item-ural:hover  {
-    background: url(../../img/content/team/partners/ural.png) no-repeat;
-    background-size: contain;
+  .partners__item:hover  {
+    filter: none;
     transition: .5s;
   }

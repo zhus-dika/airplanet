@@ -1,5 +1,5 @@
   .form-section {
-    padding: 0 10%;
+    padding: 0 20%;
     margin-bottom: 30px;
   }
   .form {
@@ -91,7 +91,7 @@
   .form__button-text:after {
     content: " ";
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     margin-left: 10%;
     height: 1.5em;
     width: 1.5em;

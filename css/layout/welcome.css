@@ -1,0 +1,49 @@
+.auth {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../img/logo/flight_logo.png) center center / cover no-repeat;
+}
+.auth__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    animation: bounce;
+}
+.welcome__logo {
+    margin-bottom: 20px;
+}
+.welcome__btn {
+    display: flex;
+    padding: 5%;
+    border: 1px solid #1c5bc3;
+    border-radius: 2px;
+}
+.welcome__btn-ref {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    color: #1c5bc4;
+    text-decoration: none;
+}
+.welcome__btn-ref:after {
+    content: "";
+    display: inline-block;
+    height: 1.5em;
+    width: 1.5em;
+}
+.welcome__btn-ref:after {
+    background: url(../../img/content/sidebar/main_icon.png) center;
+    background-position: contain;
+}

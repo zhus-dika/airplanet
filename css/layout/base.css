@@ -34,7 +34,7 @@ ul li {
 .container{
     color:inherit;
     margin: 0 auto 20px;
-    width: 1063px;
+    width: 85%;
 }
 .page-content {
     display: flex;

@@ -1,0 +1,77 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-BMP {
+    width: 159px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+.sprite-BMP-nonactive {
+    width: 159px;
+    height: 30px;
+    background-position: -174px -5px;
+}
+
+.sprite-bing-air {
+    width: 46px;
+    height: 64px;
+    background-position: -343px -5px;
+}
+
+.sprite-bing-air-nonactive {
+    width: 46px;
+    height: 64px;
+    background-position: -399px -5px;
+}
+
+.sprite-one-air {
+    width: 141px;
+    height: 63px;
+    background-position: -455px -5px;
+}
+
+.sprite-one-air-nonactive {
+    width: 141px;
+    height: 63px;
+    background-position: -606px -5px;
+}
+
+.sprite-sib_avia {
+    width: 133px;
+    height: 64px;
+    background-position: -757px -5px;
+}
+
+.sprite-sib_avia-nonactive {
+    width: 133px;
+    height: 64px;
+    background-position: -900px -5px;
+}
+
+.sprite-tetra {
+    width: 161px;
+    height: 64px;
+    background-position: -1043px -5px;
+}
+
+.sprite-tetra-nonactive {
+    width: 161px;
+    height: 64px;
+    background-position: -1214px -5px;
+}
+
+.sprite-ural {
+    width: 82px;
+    height: 64px;
+    background-position: -1385px -5px;
+}
+
+.sprite-ural-nonactive {
+    width: 82px;
+    height: 64px;
+    background-position: -1477px -5px;
+}

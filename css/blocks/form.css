@@ -105,7 +105,6 @@
  .form__button-text:after{
     background: url(../../img/content/comments/vector.png);
     background-size: 100% 100%;
-    z-index: 10;
   }
   .form__button-text:hover, .form__button-text:active {
     color: #4b73b5;

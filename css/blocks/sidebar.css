@@ -1,6 +1,7 @@
 .sidebar {
     display: block;
     width: 70%;
+    margin-bottom: 5%;
 }
 .nav__list {
     display: flex;

@@ -1,0 +1,19 @@
+.socials__list {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials__title {
+    text-align: center;
+    color: #221f1f;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 54px;
+}
+.socials__item{
+    margin-right: 18px;
+}
+.socials__item:last-child {
+    margin-right: 0px;
+}

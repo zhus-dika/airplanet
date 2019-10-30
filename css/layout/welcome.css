@@ -14,10 +14,10 @@
 }
 .welcome {
     display: flex;
-    justify-content: space-between;
+    justify-content: baseline;
     align-items: center;
     flex-direction: column;
-    animation: bounce;
+    animation: bounce 1s infinite;
 }
 .welcome__logo {
     margin-bottom: 20px;
@@ -26,6 +26,7 @@
     display: flex;
     padding: 5%;
     border: 1px solid #1c5bc3;
+    min-width: 208px;
     border-radius: 2px;
 }
 .welcome__btn-ref {
@@ -46,4 +47,16 @@
 .welcome__btn-ref:after {
     background: url(../../img/content/sidebar/main_icon.png) center;
     background-position: contain;
+}
+@keyframes bounce {
+    0%, 40%, 80%{
+        transform: translateY(0);
+    }
+    0% {
+        opacity: 0;
+    }
+    30%, 70% {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
 }

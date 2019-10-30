@@ -52,3 +52,6 @@ button {
     cursor: pointer;
     border: none;
 }
+.left-side {
+    width:30%;
+}

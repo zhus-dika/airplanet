@@ -1,11 +1,3 @@
-.rates h1  {
-    color: #221f1f;
-    font-family: Roboto;
-    font-size: 49px;
-    font-weight: 700;
-    line-height: 38px;  
-    margin: 20px 0;
-}
 .rates__list {
     display: flex;
     justify-content: flex-start;
@@ -21,6 +13,7 @@
     text-align: center;
     transition: .5s;
     position: relative;
+    margin-right: 25px;
 }
 .rates__item-text {
     color:  #212121;
@@ -41,19 +34,14 @@
     text-transform: uppercase;
     letter-spacing: 2.88px;
 }
-.rates__link {
-    border-radius: 50%;
-    background: #4b73b5;
-    width: 72px;
-    height: 72px;
-    position: relative;
-    margin: 35px auto;
-}
-.rates__icon {
-    position: absolute;
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%,50%);
+.rates__top {
+    margin: 8% auto;
+    color: #221f1f;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
 }
 .rates__price {
     text-align: center;

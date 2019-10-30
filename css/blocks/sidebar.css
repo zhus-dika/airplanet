@@ -1,10 +1,10 @@
 .sidebar {
-    display: inline-block;
-    vertical-align: top;
-    padding-top: 30px;
-    width: 30%;
+    display: block;
+    width: 70%;
 }
-
+.nav__list {
+    display: flex;
+}
 .nav__link:before {
     content: " ";
     display: inline-block;
@@ -25,11 +25,11 @@
     letter-spacing: 2.4px;
     text-decoration: none;
 }
-.nav__list li {
-    margin-bottom: 30px;
+.nav__item {
+    margin-right: 97px;
 }
-.nav__list li:last-child {
-    margin-bottom: 0;
+.nav__item:last-child {
+    margin-right: 0;
 }
 .nav__link:hover {
     color: #221f1f;

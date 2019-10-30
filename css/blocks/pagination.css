@@ -1,6 +1,7 @@
 
 .pagination {
     text-align: center;
+    margin-bottom: 30px;
 }
 .pagination__pager, .pagination__display {
     display: inline-block;
@@ -9,14 +10,15 @@
     display: inline-block;
     margin-right: 18px;
 }
+.pagination__link:hover {
+    transition: .5s;
+    color: #1c5bc3;
+}
 .pagination__list,.pagination__prev,.pagination__next {
     display: inline-block;
 }
 .pagination__prev {
     margin-right: 20px;
-}
-.pagination__item:last-child {
-    margin-right: 0;
 }
 .pagination__link{
     text-decoration: none;
@@ -39,15 +41,12 @@
     font-size: 14px;
     font-weight: 700;
 }
-.pagination__prev .pagination__prev-nonactive{
+.pagination__prev .pagination__prev--nonactive{
     text-decoration: none;
     opacity: 0.3;
     font-size: 18px;
 }
-.pagination__next {
-    margin-left: 18px;
-}
-.pagination__next .pagination__next-active{
+.pagination__next .pagination__next--active{
     text-decoration: none;
     font-size: 18px;
 }

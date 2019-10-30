@@ -5,7 +5,7 @@
 }
 .header__container {
     display: flex;
-    padding: 10px 0;
+    padding-top: 2%;
     justify-content: space-between;
     align-items: center;
 }
@@ -22,6 +22,7 @@
     text-decoration: none;
 }
 .contacts__hours {
+    text-align: right;
     text-decoration: underline;
 }
 .contacts__hours li {
@@ -30,25 +31,38 @@
     font-size: 14px;
     font-family: "Roboto - Bold";
     font-weight: 700;
-    margin-top: 14px;
 }
 .contacts__hours li:last-child {
     color: #221f1f;
     font-family: "Roboto Light";
     font-weight: 300;
 }
-.contacts__hours:hover .contacts__hours-list {
+.contacts__hours:hover .contacts__hours-list, .contacts__hours:hover .triangle {
     display:block;
 }
 .contacts__hours-list{
     position:absolute;
     font-size: 14px;
     font-weight: 700;
-    padding: 10px 15px;
-    margin: 35px 0px 0px 10px;
+    padding: 1%;
+    margin-top: 20px;
     display: none;
     border: black;
     background-color: white;
     border-radius: 2%;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+}
+.contacts__hours-wrapper {
+    position: relative;
+}
+.triangle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: white;
+    right: 25%;
+    margin-top: 8%;
+    border-radius: 3px;
+    transform: rotate(45deg);
+    display: none;
 }

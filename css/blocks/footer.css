@@ -1,21 +1,20 @@
-.footer{
+footer{
     background: #4b73b5;
-    padding-top: 15px;
-    padding-left: 18px;
-    padding-bottom: 20px;
+    padding-top: 1%;
 }
 .footer__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0;
 }
-.footer__thanks {
-    width: 30%;
-    color: white;
+.footer__thanks p{
+    width: 80%;
+    color: #ffffff;
     font-family: Roboto;
     font-size: 14px;
+    font-family: "Roboto Light";
     font-weight: 300;
-    line-height: 18px;
 }
 
 .loftschool {
@@ -26,7 +25,6 @@
     color:white;
 }
 .logo__footer {
-    text-align: center;
     width: 40%;
 }
 .socials__list {

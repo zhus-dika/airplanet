@@ -1,12 +1,16 @@
-.section h1, .section{
+.news h1, .news{
     margin-bottom: 30px;
 }
-.section__title {
+.news__title {
     color: #221f1f;
     font-family: Roboto;
     font-size: 49px;
     font-weight: 700;
     margin: 20px 0;
+}
+.news__list{
+    display: flex;
+    justify-content: flex-start;
 }
 .date {
     color: #656464;
@@ -15,14 +19,14 @@
     font-weight: 300;
     margin-top: 0px;
 }
-.section__item-title {
+.news__item-title {
     color: #221f1f;
     font-size: 18px;
     font-family: "Roboto - Bold";
     font-weight: 700;
     margin-top: 0;
 }
-.section__text p {
+.news__text p {
     color: #221f1f;
     font-family: Roboto;
     font-size: 18px;
@@ -30,26 +34,24 @@
     font-weight: 300;
     line-height: 30px;
 }
-.section__content {
-    width: 75%;
+.news__content--news {
+    width: 100%;
 }
-.section__item-pic {
+.news__item-pic {
     width: 160px;
     height: 160px;
     border-radius: 50%;
     overflow: hidden;
 }
-.section__item {
-    display: flex;
-    border-bottom: 2px solid #f5f5f5;
-    padding-bottom: 2%;
-    margin-bottom: 2%;
+.news__item {
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 30px;
 }
-.section__item:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
-    margin-bottom: 0;
+.news__item:nth-child(3n) {
+    margin-right: 0;
 }
-.section__item-photo {
-    margin-right: 25px;
+.news__photo {
+    margin-bottom: 40px;
+    text-align: center;
 }

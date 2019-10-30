@@ -6,7 +6,6 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0;
 }
 .footer__thanks p{
     color: #ffffff;
@@ -15,6 +14,7 @@ footer{
     font-family: "Roboto Light";
     font-weight: 300;
     padding-right: 20%;
+    line-height: 18px;
 }
 .loftschool {
     font-size: 14px;

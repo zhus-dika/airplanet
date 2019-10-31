@@ -1,62 +1,96 @@
-.auth {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: url(../../img/logo/flight_logo.png) center center / cover no-repeat;
-}
-.auth__container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.welcome {
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
-    flex-direction: column;
-    animation: bounce 1s infinite;
-}
-.welcome__logo {
-    margin-bottom: 20px;
-}
-.welcome__btn {
-    display: flex;
-    padding: 5%;
-    border: 1px solid #1c5bc3;
-    min-width: 208px;
-    border-radius: 2px;
-}
-.welcome__btn-ref {
-    text-transform: uppercase;
+.btn {
+    padding: 13px 20px;
+    border-radius: 5px;
+    color: #1c5bc4;
     font-family: Roboto;
     font-size: 12px;
     font-weight: 700;
-    letter-spacing: 2.4px;
-    color: #1c5bc4;
+    text-transform: uppercase;
+    border: 1px solid #1c5bc4;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: .3s;
     text-decoration: none;
-}
-.welcome__btn-ref:after {
-    content: "";
+  }
+  
+  .btn:hover {
+    background: #1c5bc4;
+    color: #fff;
+  }
+  
+  .btn:hover .welcome__enter-icon {
+    background-image: url("../../img/welcome/main_icon-white.png");
+  }
+  .title {
+    font-size: 50px;
+    color: #221f1f;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: block;
+  }
+  
+  .wrapper__container {
+    animation: bounce 1s 1s;
+    transform-origin: center bottom;
+  }
+  
+  .welcome__logo {
+    margin-bottom: 25px;
     display: inline-block;
-    height: 1.5em;
-    width: 1.5em;
-}
-.welcome__btn-ref:after {
-    background: url(../../img/content/sidebar/main_icon.png) center;
-    background-position: contain;
-}
-@keyframes bounce {
-    0%, 40%, 80%{
-        transform: translateY(0);
+  }
+  
+  .welcome__enter-btn {
+    white-space: nowrap;
+  }
+  
+  .welcome__enter-text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .welcome__enter-icon {
+    background: url("../../img/welcome/main_icon.png") center center no-repeat;
+    width: 15px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -1px;
+    margin-left: 10px;
+    transition: .3s;
+  }
+  
+  @keyframes bounce {
+  
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      transform: translate3d(0, 0, 0);
     }
-    0% {
-        opacity: 0;
+  
+    40%,
+    43% {
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      transform: translate3d(0, -30px, 0);
     }
-    30%, 70% {
-        opacity: 1;
-        transform: translateY(-30px);
+  
+    70% {
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      transform: translate3d(0, -15px, 0);
     }
-}
+  
+    90% {
+      transform: translate3d(0, -4px, 0);
+    }
+  }

@@ -122,7 +122,9 @@ textarea{
   width: 8px;
   height: 8px;
 }
-
+.form__question-radio:focus+.form__question-visible {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
 .form__question-radio:checked+.form__question-visible+.form__question-name {
   color: #1c5bc3;
 }

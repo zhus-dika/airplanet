@@ -11,27 +11,34 @@
     font-weight: 700;
     line-height: 54px;
 }
-.fb{
+.socials__link:before {
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 15px;
+}
+.socials__link--fb:before{
     width: 15px;
     height: 15px;
     background: url(../../img/content/socials/sprite_socials.png) -5px -5px;
 }
-.google{
+.socials__link--google:before{
     width: 15px;
     height: 15px;
     background: url(../../img/content/socials/sprite_socials.png) -21px -5px;
 }
-.vk{
+.socials__link--vk:before{
     width: 15px;
     height: 15px;
     background: url(../../img/content/socials/sprite_socials.png) -89px -5px;
 }
-.mail{
+.socials__link--mail:before{
     width: 15px;
     height: 15px;
     background: url(../../img/content/socials/sprite_socials.png) -46px -5px;
 }
-.twitter{
+.socials__link--twitter:before{
     width: 15px;
     height: 15px;
     background: url(../../img/content/socials/sprite_socials.png) -68px -5px;

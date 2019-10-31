@@ -1,6 +1,6 @@
 .socials__list {
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .socials__title {
@@ -11,9 +11,28 @@
     font-weight: 700;
     line-height: 54px;
 }
-.socials__item{
-    margin-right: 18px;
+.fb{
+    width: 15px;
+    height: 15px;
+    background: url(../../img/content/socials/sprite_socials.png) -5px -5px;
 }
-.socials__item:last-child {
-    margin-right: 0px;
+.google{
+    width: 15px;
+    height: 15px;
+    background: url(../../img/content/socials/sprite_socials.png) -21px -5px;
+}
+.vk{
+    width: 15px;
+    height: 15px;
+    background: url(../../img/content/socials/sprite_socials.png) -89px -5px;
+}
+.mail{
+    width: 15px;
+    height: 15px;
+    background: url(../../img/content/socials/sprite_socials.png) -46px -5px;
+}
+.twitter{
+    width: 15px;
+    height: 15px;
+    background: url(../../img/content/socials/sprite_socials.png) -68px -5px;
 }

@@ -20,13 +20,10 @@
                     <address class="contacts">
                         <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
                         <div class="contacts__hours">
-                            График работы
-                            <div class="contacts__hours-wrapper">
-                                <div class="triangle">]</div>
-                                <ul class="contacts__hours-list">
-                                    <li> пн-вс: 09:00 - 20:00</li>
-                                    <li>обед: 14:00 - 14:30</li>
-                                </ul>
+                            <a class="contacts__hours-trigger" href="#">График работы</a>
+                            <div class="contacts__dropdown">
+                                <div class="contacts__hours-days"> пн-вс: 09:00 - 20:00 </div>
+                                <div class="contacts__hours-break">обед: 14:00 - 14:30</div>
                             </div>
                         </div>
                     </address>
@@ -49,27 +46,27 @@
                         <ul class="socials__list">
                             <li class="socials__item">
                                 <a href="#" class="socials__link">
-                                    <img src="../img/content/footer/vk.png" alt="" class="vk">
+                                    <div class="fb"></div>
                                 </a>
                             </li>
                             <li class="socials__item">
                                 <a href="#" class="socials__link">
-                                    <img src="../img/content/footer/fb.png" alt="" class="facebook">
+                                    <div class="vk"></div>
                                 </a>
                             </li>
                             <li class="socials__item">
                                 <a href="#" class="socials__link">
-                                    <img src="../img/content/footer/google.png" alt="" class="google">
+                                    <div class="google"></div>
                                 </a>
                             </li>
-                            <li class="socials__item">
+                            <li class="socials__item-twitter">
                                 <a href="#" class="socials__link">
-                                    <img src="../img/content/footer/twitter.png" alt="" class="twitter">
+                                    <div class="twitter"></div>
                                 </a>
                             </li>
-                            <li class="socials__item">
+                            <li class="socials__item-mail">
                                 <a href="#" class="socials__link">
-                                    <img src="../img/content/footer/mail.png" alt="" class="email">
+                                    <div class="mail"></div>
                                 </a>
                             </li>
                         </ul>
@@ -202,50 +199,54 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-section">
-                        <div class="form">
-                            <h1 class="form__title">Оставить отзыв</h1>
-                            <form method="GET" action="" class="form__elem">
-                                <div class="form__row">
-                                    <label class="form__block">
-                                        <div class="form__block-title">Ваше имя </div>
-                                        <input class="form__input" type="text" name="name" placeholder="Динара">
-                                    </label>
-                                    <label class="form__block">
-                                        <div class="form__block-title">Ссылка на профиль VK </div>
-                                        <input class="form__input" type="text" name="vk-account"
-                                            placeholder="vk.com/example">
-                                    </label>
-                                </div>
-                                <div class="form__row">
-                                    <label class="form__block">
-                                        <div class="form__block-title">Текст отзыва </div>
-                                        <textarea name="form__input form__input--textarea"
-                                            placeholder="Мне понравилось">
-                                                            </textarea>
-                                    </label>
-                                </div>
-                                <div class="form__row">
+                    <form class="form">
+                        <div class="title">Оставить отзыв</div>
+                        <div class="form__content">
+                            <div class="form__row">
+                                <label class="form__block">
+                                    <div class="form__block-title">Ваше имя </div>
+                                    <input class="form__input" type="text" name="name" placeholder="Динара">
+                                </label>
+                                <label class="form__block">
+                                    <div class="form__block-title">Ссылка на профиль VK </div>
+                                    <input class="form__input" type="text" name="vk-account"
+                                        placeholder="vk.com/example">
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <label class="form__block">
+                                    <div class="form__block-title">Текст отзыва </div>
+                                    <textarea name="form__input form__input--textarea" placeholder="Мне понравилось">
+                                                                </textarea>
+                                </label>
+                            </div>
+                            <div class="form__row form__row_btns">
+                                <div class="form__row-left">
                                     <div class="form__question">
                                         <div class="form__question-title">Отображать фото в отзыве?</div>
-                                        <div class="form__question-options">
-                                            <label class="answer">Да
-                                                <input type="radio" checked="checked" name="radio">
-                                                <span class="checkmark"></span>
+                                        <div class="form__question-btns">
+                                            <label class="form__question-btn">
+                                                <input class="form__question-radio" name="question" type="radio">
+                                                <div class="form__question-visible"></div>
+                                                <div class="form__question-name">Да</div>
                                             </label>
-                                            <label class="answer">Нет
-                                                <input type="radio" name="radio">
-                                                <span class="checkmark"></span>
+                                            <label class="form__question-btn">
+                                                <input class="form__question-radio" name="question" type="radio">
+                                                <div class="form__question-visible"></div>
+                                                <div class="form__question-name">Нет</div>
                                             </label>
                                         </div>
                                     </div>
-                                    <button class="form__button">
-                                        <div class="form__button-text">Отправить</div>
+                                </div>
+                                <div class="form__row-right">
+                                    <button class="btn form__submit" name="" type="submit">
+                                        <div class="form__submit-text">Отправить</div>
+                                        <div class="form__submit-icon"></div>
                                     </button>
                                 </div>
-                            </form>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </main>
             </div>
         </div>

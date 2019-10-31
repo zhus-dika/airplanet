@@ -1,22 +1,16 @@
-.rates h1  {
-    color: #221f1f;
-    font-family: Roboto;
-    font-size: 49px;
-    font-weight: 700;
-    line-height: 38px;  
-    margin: 20px 0;
-}
 .rates__list {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 0 20%;
 } 
-.rates__item li {
+.rates__item li{
     list-style: disc inside;
     margin-left: 20px;
 }
 .rates__item {
-    width: 250px;
+    min-width: 250px;
+    padding: 5%;
     border: 2px solid #ffffff;
     text-align: center;
     transition: .5s;
@@ -41,19 +35,14 @@
     text-transform: uppercase;
     letter-spacing: 2.88px;
 }
-.rates__link {
-    border-radius: 50%;
-    background: #4b73b5;
-    width: 72px;
-    height: 72px;
-    position: relative;
-    margin: 35px auto;
-}
-.rates__icon {
-    position: absolute;
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%,50%);
+.rates__top {
+    margin: 8% auto;
+    color: #221f1f;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
 }
 .rates__price {
     text-align: center;
